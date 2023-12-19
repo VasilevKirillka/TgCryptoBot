@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    container_name: pg_container
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: cryptodb
+      POSTGRES_PASSWORD: cryptodb
+      POSTGRES_DB: cryptodb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./src/main/resources:/docker-entrypoint-initdb.d

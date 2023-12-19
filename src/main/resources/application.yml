@@ -1,0 +1,33 @@
+telegram:
+  bot:
+    token: 6419596253:AAH-S90snvv8-E75QtPONmq35t52wdp-MKE
+    username: SnamCryptoBot
+
+binance:
+  api:
+    getPrice: https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT
+
+cron:
+  scheduler: 0 0/2 * * * *
+  timeBetweenNotification: 4
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cryptodb
+    username: cryptodb
+    password: cryptodb
+    driverClassName: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        default_schema: cryptodb
+
+logging:
+  level:
+    org:
+      hibernate: Info
