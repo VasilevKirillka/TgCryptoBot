@@ -37,5 +37,5 @@
 В `application.yml` находятся конфигурируемые параметры нашего приложения
 (в частности, там указывается токен вашего бота)
 
-Для получения `telegram.bot.token` и `telegram.bot.username` нужно в Telegram перести на `@BotFather`
+Для получения `telegram.bot.token` и `telegram.bot.username` нужно в Telegram перейти на `@BotFather`
 и следовать по созданию нового бота.
