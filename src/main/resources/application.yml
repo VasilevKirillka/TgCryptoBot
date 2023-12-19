@@ -1,7 +1,7 @@
 telegram:
   bot:
-    token: 6419596253:AAH-S90snvv8-E75QtPONmq35t52wdp-MKE
-    username: SnamCryptoBot
+    token: 
+    username: 
 
 binance:
   api:
